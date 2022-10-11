@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <nav className='flex items-center justify-between w-11/12 mx-auto mt-5 font-bold'>
+            <nav className='flex items-center justify-between w-11/12 mx-auto mt-5 font-bold shadow-lg shadow-gray-500 px-3 rounded-md bg-slate-200 h-20'>
                 <div className='flex'>
                     <AcademicCapIcon className="h-10 w-10 text-blue-900"></AcademicCapIcon>
                     <h1 className='text-4xl text-blue-900'>IQ TEST</h1>
