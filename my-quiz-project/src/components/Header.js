@@ -6,7 +6,7 @@ const Header = () => {
     const [open, setOpen] = useState(false);
     return (
         <div>
-            <nav className='flex items-center md:justify-between md:w-11/12 h-48 md:h-20 md:mx-auto font-bold shadow-lg shadow-gray-500 px-3 rounded-md bg-slate-200'>
+            <nav className='flex items-center md:justify-between md:w-11/12 h-32 md:h-20 md:mx-auto font-bold shadow-lg shadow-gray-500 px-3 rounded-md bg-slate-200'>
                 <div className='flex absolute top-7 right-28 md:static' onClick={() => setOpen(!open)}>
                     <div className='flex'>
                         {
