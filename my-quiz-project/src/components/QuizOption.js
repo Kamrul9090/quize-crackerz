@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { toast } from 'react-toastify'
 const QuizOption = ({ item, correctAnswer }) => {
-    const [correct, setCorrect] = useState(correctAnswer)
     const [checked, setChecked] = useState(false);
     const addToast = () => {
         if (item === correctAnswer) {
