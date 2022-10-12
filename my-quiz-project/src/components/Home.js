@@ -11,8 +11,8 @@ const Home = () => {
         <div>
             <div className='w-11/12 mx-auto mt-20 grid md:grid-cols-2 border-2 bg-slate-200 rounded-xl font-serif'>
                 <div className='font-bold p-10'>
-                    <h1 className='text-6xl text-blue-900'>Online Learning Test.</h1>
-                    <p className='text-2xl mt-5 text-orange-400'>Test your cognitive skills and see where you rank.</p>
+                    <h1 className='text-3xl md:text-6xl text-blue-900'>Online Learning Test.</h1>
+                    <p className='text-xl md:text-2xl mt-5 text-orange-400'>Test your cognitive skills and see where you rank.</p>
                     <ul className='p-10 '>
                         <li>20+ Questions</li>
                         <li>Instant Result</li>
